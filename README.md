@@ -13,11 +13,12 @@ The student should create a class that meets the following requirements
 * It should have a .posts method that returns an array of content
 
 Drop your blog.rb file into this directory then run:
-  ruby -Itest homework_test.rb
-to check your answers
 
-If you want to try the bonus, run this:
-  ruby -Itest bonus_test.rb
+    ruby -Itest homework_test.rb
+
+to check your answers. If you want to try the bonus, run this:
+
+    ruby -Itest bonus_test.rb
 
 As always if you have any questions about it, feel free to email me at
 Nathaniel.R.Barnes@gmail.com
