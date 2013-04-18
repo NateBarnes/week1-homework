@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require "blog.rb"
+require "./blog.rb"
 
 class HomeworkTest < MiniTest::Unit::TestCase
   def setup
@@ -10,7 +10,7 @@ class HomeworkTest < MiniTest::Unit::TestCase
     @blog.add_post "Content1", "Author1"
     @blog.add_post "Content2", "Author1"
     @blog.add_post "Content3", "Author2"
-    assert_equal @blog.authors, ["Author1", "Aurthor2"]
+    assert_equal @blog.authors, ["Author1", "Author2"]
   end
 end
 
