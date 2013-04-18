@@ -1,5 +1,6 @@
+$:.unshift File.join(File.dirname(__FILE__))
 require "minitest/autorun"
-require "./blog.rb"
+require "blog.rb"
 
 class HomeworkTest < MiniTest::Unit::TestCase
   def setup
