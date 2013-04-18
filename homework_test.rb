@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require "blog.rb"
+require "./blog.rb"
 
 class HomeworkTest < MiniTest::Unit::TestCase
   def setup
